@@ -1,0 +1,33 @@
+.navbar__botons--white {
+    background-color: $tertiary-color;
+    color: $primary-color;
+    padding: 10px 20px;
+    border: 1px solid $primary-color; 
+    cursor: pointer;
+    font-size: $font-size-base;
+
+    &:hover {
+        background-color: $tertiary-color;
+        color: $accent-color;
+        padding: 10px 20px;
+        border: 2px solid $accent-color; 
+        cursor: pointer;
+    }
+}
+
+
+.navbar__botons--green{
+    background-color:  $secondary-color;
+    color: $tertiary-color;
+    padding: 10px 20px;
+    border: 1px solid $secondary-color; 
+    cursor: pointer;
+
+    &:hover {
+        background-color: $quaternary-color;
+        color: $text-color;
+        padding: 10px 20px;
+        border: 2px solid $quaternary-color; 
+        cursor: pointer;
+    }
+}
